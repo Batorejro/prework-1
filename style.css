@@ -166,16 +166,27 @@ div.my-information {
 .projects-container {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
     justify-content: center;
+    margin: auto;
+    position: left center;
+    top: -35px;
+
 }
 
 .projects-container .image-box {
-    margin: 0px;
+    margin: 5px;
+    width: 300px;
+    height: 200px;
+
+
 }
 
 .image-box a {
     text-decoration: none;
     text-align: center;
+
+
 }
 
 
@@ -212,7 +223,7 @@ label {
 }
 
 form.formularz {
-    width: 360px;
+    width: 300px;
     background-color: red;
     border: 2px solid #02639a;
     border-radius: 10px;
@@ -225,24 +236,29 @@ fieldset {
     background-color: black;
     padding: 3px;
     width: 250px;
+    font-size: 14px;
+    position: relative;
+    margin: auto;
+    margin-top: 30px;
+
 }
 
 .formularz textarea,
 .formularz input#nazwisko,
 .formularz input#nazwisko,
 .formularz input#email {
-    padding: 5px;
+    padding: 6px;
     border-radius: 3px;
     border: 1px solid #02639a;
-    margin-bottom: 25px;
-    width: 245px;
+    margin-bottom: 35px;
+    width: 250px;
     font-family: Arial, sans-serif;
     font-size: 14px;
     color: #02639a;
 }
 
 .formularz input#submit {
-    width: 255px;
+    width: 200px;
     font-family: Arial, sans-serif;
     color: #02639a;
     font-size: 15px;
